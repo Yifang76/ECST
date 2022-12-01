@@ -9,8 +9,8 @@ while True:
 
         rannum = random.randint(1,1000000000000) 
 
-        answer = input("What is the outputted number? ") 
-        answer = int(answer)
+        answer = int(input("What is the outputted number? "))
+
 
         if answer == rannum: 
 
@@ -28,9 +28,10 @@ while True:
 
             rannum = random.randint(1,1000000000000) 
 
-            answer = input("What is the outputted number? ") 
-            answer = int(answer)
+            answer = int(input("What is the outputted number? "))
 
             if answer == rannum: 
 
-                print("You got it correct, well done. Now redo it") 
+                print("You got it correct, well done. Now redo it")
+            else:
+                print("You're an idiot")
